@@ -1,0 +1,476 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden; /*Hide horizontal scrollbar  */
+    background-color: #F5F5F5;
+    font-family: Gilroy-Light;
+
+  }
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(Gilroy-Light.otf);
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navlist{
+    display: flex;
+    align-items: center;
+}
+.navlist li{
+    font-size: 22px;
+    padding: 30px;
+    list-style: none;
+}
+.navlist li a{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+.navlist li a:hover{
+    /* text-decoration: none; */
+    color: gray;
+    text-decoration: underline;
+}
+/* .right{
+    background-color: khaki;
+} */
+.right{
+    height:auto;
+    position: absolute;
+    top: 400px;
+    left: -18%;
+    /* background-color: black; */
+
+}
+.right img {
+    /* left image */
+    max-width:30%;
+
+}
+.left img {
+    max-width:30%;
+    height:auto;
+    position: relative;
+    top: 0px;
+    left: 85%;
+}
+/* .mid img {
+    max-width:40%;
+    height:auto;
+    position: relative;
+    top: -450px;
+    left: 30%;
+    
+} */
+.mid{
+    /* background-color: black; */
+    /* max-width: 40%;
+    height: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    position: relative;
+    top: -280px;
+}
+.mid img{ 
+    max-width: 50%;
+}
+
+.second h1{
+    font-size: 45px; 
+    padding: 0px 40px;
+}
+
+.second{
+    /* background-color: khaki; */
+    position: relative;
+    height: fit-content;
+    width: 50%;
+    top: -280px;
+    left: 100px;
+}
+.second h1{
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 1px;
+}
+.second p{
+    font-size: 25px;
+    line-height: 1.6;
+    padding-left: 1px;
+}
+/* .para{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+} */
+/* .para p{
+    background-color: pink;
+    padding: 45px 40px;
+} */
+
+/* .empty{
+    background-color: pink;
+    float: right;
+} */
+
+
+.boxemp{
+    background-color: #B4B4D6;
+    width: 900px;
+    height: 770px;
+    /* float: right; */
+    position: absolute;
+    right: -750px;
+    top: 0px;
+}
+
+/* .second img{
+    width: 130%;
+    position: relative;
+    display: block;
+    top: -627px;
+    right: -330px;
+    z-index: 1;
+} */
+
+.boxemp h3{
+    padding: 30px;
+    position: relative;
+    top: 120px;
+    right: -700px;
+}
+
+.image{
+    width: 65%;
+    position: absolute;
+    top:817px;
+    right: 100px;
+    /* background-color: black; */
+}
+
+.boxemp1{
+    background-color: #C1D188;
+    width: 760px;
+    height: 773px;
+    position: relative;
+    left: -760px;
+    top: -715px;
+}
+.boxemp1 h3{
+    padding: 20px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.image1{
+    /* background-color: black; */
+    width: 52%;
+    position: absolute;
+    top:1640px;
+    left: 60px;
+}
+
+/* .third{
+    background-color: black;
+    width: 50%;
+    top: -280px;
+    left: 100px;
+    position: relative;
+} */
+.third h1{
+    position: relative;
+    /* background-color: black; */
+    width: 50%;
+    /* top: 100px; */
+    top: -30px;
+    left:40px;
+    padding-top: 90px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    font-size: 45px; 
+    /* padding: 0px 40px; */
+}
+
+.third{
+    /* background-color: khaki; */
+    position: relative;
+    height: 700px;
+    width: 50%;
+    top: -182px;
+    left: 760px;
+}
+.third p{
+    position: relative;
+    font-size: 25px;
+    line-height: 1.6;
+    padding-left: 70px;
+    top: -30px;
+    left: 30px;
+}
+.four{
+    padding-bottom: 100px;
+}
+.four .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+}
+.four .fourhead{
+    font-size: 30px;
+    padding-left: 100px;
+}
+
+.four p{
+    font-size: 25px;
+    padding-left: 100px;
+    padding-top: 30px;
+    line-height: 1.6;
+}
+
+li{
+    font-size: 25px;
+    padding-left: 200px;
+    padding-top: 20px;
+    
+}
+
+/* ul {
+    list-style: none;
+  }
+  
+  ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  } */
+.four img{
+    width:48%;
+    position: absolute;
+    right: -370px;
+    top: 2410px;
+}
+
+.five{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F1F1F1
+}
+
+.five .headfive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px; 
+}
+.headfive h1{
+    color: #C1D188
+}
+
+.five .about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding-top: 40px;
+
+}
+.five .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding-top: 40px;
+    line-height: 1.6;
+}
+.five .para2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding-top: 50px;
+    line-height: 1.6;
+
+}
+.five .para3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    padding-top: 50px;
+    /* line-height: 1.6; */
+}
+.six #heading{
+    padding-left: 120px;
+    font-size: 30px;
+}
+#heading h1{
+    color: #EE9E85;
+}
+.six #head2{
+    padding-left: 120px;
+    font-size: 25px;
+    padding-top: 30px;
+}
+.six #para{
+    /* background-color: black; */
+    width: fit-content;
+    padding-left: 120px;
+    font-size: 25px;
+    padding-top: 30px;
+    line-height: 1.6;
+    padding-bottom: 30px;
+}
+.six img{
+    width: 60%;
+    position: absolute;
+    top: 3849px;
+    right: -60px;
+    /* border-radius: 1000px; */
+}
+.seven{
+    background-color: #B3DCF2;
+    padding-bottom: 50px;
+}
+
+.seven .from{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.from h1{
+    color: #012339;
+}
+.seven .sevenp{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.seven .ruchi{
+    position: absolute;
+    top: 4770px;
+    left: 380px;
+    font-size: 25px;
+    line-height: 1.6;
+}
+.seven .virag{
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 200px;
+    line-height: 1.6;
+}
+.seven .viragimg{
+    position: absolute;
+    top: 4930px;
+    right: 70px;
+}
+.eight{
+    padding-bottom: 100px;
+}
+.eight .vision{
+    background-color: #C1D188;
+    padding-top: 40px;
+    width: 200px;
+    /* background-color: #012339; */
+    height: fit-content;
+    /* padding-left: 300px; */
+    position: relative;
+    left: 305px;
+    top: 30px;
+    /* border: 2px solid black; */
+    z-index: 1;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px black;
+}
+
+.eight .vision h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+.eight .visp{
+    background-color: #C1D188;
+    padding-top: 40px;
+    width: 500px;
+    height: 460px;
+    /* background-color: #012339; */
+    /* height: fit-content; */
+    /* padding-left: 300px; */
+    position: relative;
+    left: 168px;
+    top: 10px;
+    
+}
+.eight .visp p{
+    /* padding-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 1.4;
+}
+
+.eight .Mission{
+    background-color: #B4B4D6;
+    padding-top: 40px;
+    width: 230px;
+    /* background-color: #012339; */
+    height: fit-content;
+    /* padding-left: 300px; */
+    position: absolute;
+    right: 310px;
+    top: 5225px;
+    /* border: 2px solid black; */
+    z-index: 1;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px black;
+}
+.eight .Mission h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+}
+
+.eight .misp{
+    background-color: #B4B4D6;
+    padding-top: 40px;
+    width: 500px;
+    height: 460px;
+    /* background-color: #012339; */
+    /* height: fit-content; */
+    /* padding-left: 300px; */
+    position: absolute;
+    right: 168px;
+    top: 5300px;
+    
+}
+
+.eight .misp p{
+    /* padding-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    line-height: 1.4;
+}
+
